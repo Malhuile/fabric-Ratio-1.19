@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "ratiomod:block/candy_cane_side",
+    "front": "ratiomod:block/candy_cane_side",
+    "top": "ratiomod:block/candy_cane_top",
+    "bottom": "ratiomod:block/candy_cane_top"
+  }
+}

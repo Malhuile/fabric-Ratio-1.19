@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": {"model":  "ratiomod:block/rich_block"}
+  }
+}

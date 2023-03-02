@@ -1,0 +1,14 @@
+{
+  "item.ratiomod.ratio_gem": "Gemme de ratio",
+  "block.ratiomod.ratio_block": "Bloc de ratio",
+  "block.ratiomod.ratio_ore": "Minerai de ratio",
+  "block.ratiomod.deepslate_ratio_ore": "Minerai de ratio intense",
+  "item.ratiomod.test_item": "Item de test",
+  "item.ratiomod.teleport_staff": "Baton de teleportation",
+  "block.ratiomod.jump_block": "Ventre de Garnier",
+  "entity.minecraft.villager.garnier": "Garnier",
+  "entity.minecraft.villager.rich": "Mec riche",
+
+
+  "itemGroup.ratiomod.ratio": "Ratio Tab"
+}

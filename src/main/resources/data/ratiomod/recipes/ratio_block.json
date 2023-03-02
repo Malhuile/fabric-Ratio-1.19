@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ratiomod:ratio_gem"
+    }
+  },
+  "result": {
+    "item": "ratiomod:ratio_block"
+  }
+}

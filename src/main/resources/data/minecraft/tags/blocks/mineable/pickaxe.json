@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ratiomod:ratio_ore",
+    "ratiomod:ratio_block",
+    "ratiomod:deepslate_ratio_ore"
+  ]
+}

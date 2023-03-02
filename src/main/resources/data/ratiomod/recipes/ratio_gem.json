@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ratiomod:ratio_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "ratiomod:ratio_gem"
+  }
+}
