@@ -3,7 +3,10 @@ package net.moi.ratiomod;
 import net.fabricmc.api.ModInitializer;
 import net.moi.ratiomod.block.ModBlocks;
 import net.moi.ratiomod.item.ModItems;
+import net.moi.ratiomod.util.ModLootTableModifiers;
 import net.moi.ratiomod.villager.ModVillagers;
+import net.moi.ratiomod.world.feature.ModConfiguredFeatures;
+import net.moi.ratiomod.world.gen.ModOreGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,9 +17,12 @@ public class RatioMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModVillagers.registerVillager();
 		ModVillagers.registerTrades();
+		ModOreGeneration.generateOres();
+		ModLootTableModifiers.modifylootTables();
 	}
 }

@@ -13,21 +13,6 @@ import net.minecraft.world.World;
 import net.minecraft.world.explosion.Explosion;
 
 public class LightningStaffItem extends Item {
-   /** @Override
-    public TypedActionResult<ItemStack> use(World world, net.minecraft.entity.player.PlayerEntity player, Hand hand) {
-        ItemStack itemStack = player.getStackInHand(hand);
-
-        if (!world.isClient) {
-
-            LightningEntity lightning = new LightningEntity(EntityType.LIGHTNING_BOLT, player.world);
-            lightning.setPos(player.getX(),player.getY(),player.getZ());
-            world.spawnEntity(lightning);
-
-            itemStack.decrement(1);
-        }
-
-        return new TypedActionResult<>(ActionResult.SUCCESS, itemStack);
-    }*/
    
 
     @Override

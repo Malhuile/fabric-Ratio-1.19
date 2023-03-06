@@ -1,7 +1,10 @@
 package net.moi.ratiomod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.moi.ratiomod.RatioMod;
@@ -23,6 +26,9 @@ public class ModItems {
             new KnockBackStaff(new FabricItemSettings().group(ModItemGroup.RATIO).maxCount(1)));
     public static final Item POISON_STAFF = registerItem("poison_staff",
             new PoisonStaffItem(new FabricItemSettings().group(ModItemGroup.RATIO).maxCount(1)));
+    public static final Item GARNIER_STEAK = registerItem("garnier_steak",
+            new GarnierSteakItem(new Item.Settings().group(ItemGroup.FOOD).food(FoodComponents.APPLE).group(ModItemGroup.RATIO).maxCount(1)));
+
 
 
     private static Item registerItem(String name, Item item){

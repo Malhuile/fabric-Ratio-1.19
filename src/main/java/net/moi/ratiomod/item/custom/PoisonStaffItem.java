@@ -32,16 +32,7 @@ public class PoisonStaffItem extends Item{
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-       /** ItemStack itemStack = user.getStackInHand(hand);
-        if (!world.isClient){
-            ArrowEntity arrowEntity = new ArrowEntity(EntityType.ARROW,user.world);
-            arrowEntity.addEffect(new StatusEffectInstance(StatusEffects.WITHER,120,1));
 
-            arrowEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0f, 1.5f, 1.0f);
-            world.spawnEntity(arrowEntity);
-        }
-
-        return TypedActionResult.success(itemStack, world.isClient());*/
 
         ItemStack itemStack = user.getStackInHand(hand);
 
@@ -51,10 +42,6 @@ public class PoisonStaffItem extends Item{
             poisonEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0f, 1.5f, 1.0f);
             world.spawnEntity(poisonEntity);
 
-        }
-        user.incrementStat(Stats.USED.getOrCreateStat(this));
-        if (!user.getAbilities().creativeMode) {
-            itemStack.decrement(1);
         }
         return TypedActionResult.success(itemStack, world.isClient());
     }
