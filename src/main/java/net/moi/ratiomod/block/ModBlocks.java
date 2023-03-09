@@ -1,6 +1,5 @@
 package net.moi.ratiomod.block;
 
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -35,8 +34,6 @@ public class ModBlocks {
             new JumpBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.RATIO);
     public static final Block TRAP_BLOCK = registerBlock("trap_block",
             new TrapBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.RATIO);
-
-
 
 
     public static void registerModBlocks(){

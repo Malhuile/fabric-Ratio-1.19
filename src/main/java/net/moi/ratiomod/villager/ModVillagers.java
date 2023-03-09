@@ -39,15 +39,10 @@ public class ModVillagers {
                         .workSound(SoundEvents.ENTITY_VILLAGER_WORK_BUTCHER).build());
     }
 
-
-
-
     public static PointOfInterestType registerPOI(String name, Block block){
         return PointOfInterestHelper.register(new Identifier(RatioMod.MOD_ID, name),
                 1, 1, ImmutableSet.copyOf(block.getStateManager().getStates()));
     }
-
-
 
     public static void  registerVillager(){
         RatioMod.LOGGER.debug("Registering Villager for " + RatioMod.MOD_ID);
@@ -116,7 +111,7 @@ public class ModVillagers {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD_BLOCK,64),
                             new ItemStack(Items.EMERALD_BLOCK,64),
-                            new ItemStack(ModItems.LIGHTNING_STAFF,1),
+                            new ItemStack(ModItems.POISON_STAFF,1),
                             1,2,0.02f
                     )));
                 });
