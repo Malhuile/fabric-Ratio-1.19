@@ -5,7 +5,12 @@
   "block.ratiomod.deepslate_ratio_ore": "Minerai de ratio intense",
   "item.ratiomod.test_item": "Item de test",
   "item.ratiomod.teleport_staff": "Baton de teleportation",
+  "item.ratiomod.garnier_steak": "Steak Infini",
+  "item.ratiomod.poison_staff": "Sceptre d'éclairs",
+  "item.ratiomod.knockback_staff": "Sceptre kirepousse",
   "block.ratiomod.jump_block": "Ventre de Garnier",
+  "block.ratiomod.candy_cane": "Bloc de sucre d'orge",
+  "block.ratiomod.trap_block": "Bloc de piège",
   "entity.minecraft.villager.garnier": "Garnier",
   "entity.minecraft.villager.rich": "Mec riche",
 

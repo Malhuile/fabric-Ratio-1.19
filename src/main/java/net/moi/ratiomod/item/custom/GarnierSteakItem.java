@@ -29,7 +29,7 @@ public class GarnierSteakItem extends Item {
 
     @Override
     public int getMaxUseTime(ItemStack stack) {
-        return 48; // Vitesse par défaut
+        return 48;
     }
 
     @Override
